@@ -1,0 +1,257 @@
+5) 분석 결과 또는 구현 결과: 수학적/논리적 방법론을 python으로 구현하여 데이터를 분석 및 결과를 보임 (그래프 등)<br>
+
+코로나 맵 데이터 분석 결과
+
+국내 확진자: 12,155명 (전일대비) +43
+국내 확진자: 16명
+
+코로나바이러스감염증-19(COVID-19) 데이터 분석 결과
+
+일일 확진환자: 59명 일일 완치자: 26명 누적 확진환자: (누적)12,257명전일대비 (+ 59)
+
+완치: 10,800명(+ 26)
+
+치료 중: 1,177명(+ 32)
+
+사망: 280명(+ 1)
+
+검사현황
+
+누적 검사 수: 1,145,712 건명
+
+누적 검사 완료 수: 1,123,998 건명
+
+누적 확진률: 1.1 %
+
+검사중: 21,714명 1.9 %
+
+결과양성(확진):12,257명 1.1 %
+
+결과음성:1,111,741명 97.0 %
+
+서울 확진자: 1,170명(+ 1)
+
+부산 확진자: 148명(+25)
+
+대구 확진자: 6,896명(0)
+
+인천 확진자: 323명(+1)
+
+광주 확진자: 32명(+1)
+
+대전 확진자: 61명(0)
+
+울산 확진자: 53명(+7)
+
+세종 확진자: 48명(0)
+
+경기 확진자: 1,079명(+1)
+
+강원 확진자: 60명(+16)
+
+충북 확진자: 61명(0)
+
+충남 확진자: 156명(0)
+
+전북 확진자: 22명(+3)
+
+전남 확진자: 20명(+1)
+
+경북 확진자: 1,383명(0)
+
+경남 확진자: 132명(0)
+
+제주 확진자: 16명(0)
+
+검역 확진자: 597명(0)
+
+대한민국코로나확진자증가추이 이미지 데이터 분석
+
+image.png
+
+코로나전국확진자비율 이미지 데이터 분석
+
+image.png
+
+코로나연령별대로확진자분석 이미지 데이터 분석
+
+image.png
+
+코로나국내현황지도 이미지 데이터 분석
+
+image.png
+
+코로나시도별확진자현황지도 이미지 데이터 분석
+
+image.png
+
+6) 결론: 프로젝트 목표를 이루었는지, 본인의 명제/논리가 증명/확인 되었는지 구체적으로 서술<br>
+
+프로젝트 코로나 19 확진자들에 대한 데이터분포에 대한 분석들을 지도, 그래프, 확진자의 현황(완치, 사망, 치료중, 등) 명 에 대한 데이터들을 분석한 결과 구현한 코딩을 이용하여서 예상대로 홈페이지에 나온 기록들과 똑같이 나타냈다는 것을 알 수 있습니다. 하지만, 이를 구현하는 방법에서 이미지 링크를 구현을 하는데 조금 링크가 많이 복잡한 경우가 많아서, 링크가 복잡하기는 하지만, 리스트에 이 리스트에 링크 리스트로 진짜로 홈페이지에다가 주소를 옮기면 진짜로 이미지 사진이 홈페이지에 나오게 됩니다. 제가 계획서에 str[i], for 구문과 같이 반복 구문을 이용하거나 모듈도 beautifulsoup으로만 단지 쓸줄 알았는데, 오히려 제가 생각한 것보다 더욱 복잡한 time 모듈을 이용하고, selenium모듈 urllib.retrieve 모듈 그리고 이미지 다운로드를 하기 위해서 os 모듈을 이용하여서 폴더에 다운로드를 이용하여 이미지를 보여줄 수 있다는 것을 코딩을 구현하는 과정에서 알게 되었습니다. 제가 생각한 것보다 더욱 코딩을 구현하는데 예상보다 복잡하다는 것을 알 수 있고, 예상대로 제 가설대로 증명되었다는 것을 알 수 있습니다.
+
+표 데이터를 구현하는데 인터넷 링크를 빼내어서 데이터를 확진자, 확진자 비율에 나타내었고, 이미지를 이용하였을 때 마찬가지로 인터넷 링크를 빼내어서 이미지 링크 출처를 오픈소스로 이용하여서 오픈소스를 이용하여서 BeautifulSoup 모듈, Selenium 모듈, time모듈, 폴더를 다운로드 할 때 os모듈, urllib.request 모듈, 그리고 urllib.retrieve 모듈을 이용하여서 데이터를 추출하였을 때 오픈소스를 이용하여서 직접 구현하였습니다.
+
+코로나맵 홈페이지(https://livecorona.co.kr/) 코로나바이러스감염증-19(COVID-19)(http://ncov.mohw.go.kr/) NAVER 이미지 - 대한민국코로나확진자증가추이(https://search.naver.com/search.naver?where=image&sm=tab_jum&query=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%BD%94%EB%A1%9C%EB%82%98%ED%99%95%EC%A7%84%EC%9E%90%EC%88%98%EC%A6%9D%EA%B0%80%EC%B6%94%EC%9D%B4) NAVER 이미지 - 코로나전국확진자비율(https://search.naver.com/search.naver?sm=tab_hty.top&where=image&query=%EC%BD%94%EB%A1%9C%EB%82%98%EC%A0%84%EA%B5%AD%ED%99%95%EC%A7%84%EC%9E%90%EB%B9%84%EC%9C%A8&oquery=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%BD%94%EB%A1%9C%EB%82%98%ED%99%95%EC%A7%84%EC%9E%90%EC%88%98%EC%A6%9D%EA%B0%80%EC%B6%94%EC%9D%B4&tqi=UXooEsp0JXossfsHz78ssssssYo-273736) NAVER 이미지 - 코로나연령별대로확진자분석(https://search.naver.com/search.naver?sm=tab_hty.top&where=image&query=%EC%BD%94%EB%A1%9C%EB%82%98%EC%97%B0%EB%A0%B9%EB%B3%84%EB%8C%80%EB%A1%9C%ED%99%95%EC%A7%84%EC%9E%90%EB%B6%84%EC%84%9D&oquery=%EC%BD%94%EB%A1%9C%EB%82%98%EC%A0%84%EA%B5%AD%ED%99%95%EC%A7%84%EC%9E%90%EB%B9%84%EC%9C%A8&tqi=UXopTsp0YiRssn2qwYsssssstqh-140618) NAVER 이미지 - 코로나국내현황지도(https://search.naver.com/search.naver?sm=tab_hty.top&where=image&query=%EC%BD%94%EB%A1%9C%EB%82%98%EA%B5%AD%EB%82%B4%ED%98%84%ED%99%A9%EC%A7%80%EB%8F%84&oquery=%EC%BD%94%EB%A1%9C%EB%82%98%EC%97%B0%EB%A0%B9%EB%B3%84%EB%8C%80%EB%A1%9C%ED%99%95%EC%A7%84%EC%9E%90%EB%B6%84%EC%84%9D&tqi=UXopEdp0Jy0ssK%2B%2BdhlssssstuZ-134451) NAVER 이미지 - 코로나시도별확진자현황지도(https://search.naver.com/search.naver?sm=tab_hty.top&where=image&query=%EC%BD%94%EB%A1%9C%EB%82%98%EC%8B%9C%EB%8F%84%EB%B3%84%ED%99%95%EC%A7%84%EC%9E%90%ED%98%84%ED%99%A9%EC%A7%80%EB%8F%84&oquery=%EC%BD%94%EB%A1%9C%EB%82%98%EA%B5%AD%EB%82%B4%ED%98%84%ED%99%A9%EC%A7%80%EB%8F%84&tqi=UXoqRsp0J14ssctK%2BqVssssstCh-520058)
+
+1. 코로나19 맵 홈페이지 데이터 소스
+<div class="card-body text-center">
+                    <h6>국내확진자</h6>
+                    <div class="count-text mb-3"><span id="한국확진자">12,257</span>명<span id="한국확진자전일비"> (전일대비) +43</span></div>
+                    <h6>세계확진자</h6>
+                    <div class="count-text mb-3"><span id="확진자수">8,173,940</span>명<span id="세계확진자전일비"> (전일대비) +139,479</span></div>
+                  </div>
+
+2.코로나바이러스감염증-19(COVID-19) 홈페이지 데이터 소스
+<ul class="liveNum_today mgt8">
+								<li>
+									<span class="tit1">일일 확진자</span><span class="data1">59</span>
+								</li>
+								<li>
+									<span class="tit2">일일 완치자</span><span class="data2">26</span>
+								</li>
+							</ul>
+<div class="liveNum">
+								<h3 class="hdn">실시간 집계현황</h3>
+								<ul class="liveNum">
+									<li>
+										<strong class="tit">확진환자</strong>
+										<span class="num"><span class="mini">(누적)</span>12,257</span>
+										<span class="before">전일대비 (+ 59)</span>
+									</li>
+									<li>
+										<em class="sign">=</em>
+										<strong class="tit">완치<br><span class="mini_tit">(격리해제)</span></strong>
+										<span class="num">10,800</span>
+										<span class="before">(+ 26)</span>
+									</li>
+									<li>
+										<em class="sign">+</em>
+										<strong class="tit">치료 중<br><span class="mini_tit">(격리 중)</span></strong>
+										<span class="num">1,177</span>
+										<span class="before">(+ 32)</span>
+										<a class="help" id="liveNum_help" href="">?</a>
+									</li>
+									<li>
+										<em class="sign">+</em>
+										<strong class="tit">사망</strong>
+										<span class="num">280</span>
+										<span class="before">(+ 1)</span>
+									</li>
+								</ul>			
+							</div>
+                    <div id="main_maplayout">
+                        <button type="button" data-city="map_city1">
+                            <span class="name">서울</span>
+                            <span class="num">1,170</span>
+                            <span class="before">(+25)</span>
+                        </button>
+                        <button type="button" data-city="map_city2">
+                            <span class="name">부산</span>
+                            <span class="num">148</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city3">
+                            <span class="name">대구</span>
+                            <span class="num">6,896</span>
+                            <span class="before">(+1)</span>
+                        </button>
+                        <button type="button" data-city="map_city4">
+                            <span class="name">인천</span>
+                            <span class="num">323</span>
+                            <span class="before">(+1)</span>
+                            </button>
+                        <button type="button" data-city="map_city5">
+                            <span class="name">광주</span>
+                            <span class="num">32</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city6">
+                            <span class="name">대전</span>
+                            <span class="num">61</span>
+                            <span class="before">(+7)</span>
+                        </button>
+                        <button type="button" data-city="map_city7">
+                            <span class="name">울산</span>
+                            <span class="num">53</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city8">
+                            <span class="name">세종</span>
+                            <span class="num">48</span>
+                            <span class="before">(+1)</span>
+                        </button>
+                        <button type="button" data-city="map_city9">
+                            <span class="name">경기</span>
+                            <span class="num">1,079</span>
+                            <span class="before">(+16)</span>
+                        </button>
+                        <button type="button" data-city="map_city10">
+                            <span class="name">강원</span>
+                            <span class="num">60</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city11">
+                            <span class="name">충북</span>
+                            <span class="num">61</span>
+                            <span class="before">(0)</span>
+                        </button><button type="button" data-city="map_city12">
+                            <span class="name">충남</span>
+                            <span class="num">156</span>
+                            <span class="before">(+3)</span>
+                        </button>
+                        <button type="button" data-city="map_city13">
+                            <span class="name">전북</span>
+                            <span class="num">22</span>
+                            <span class="before">(+1)</span>
+                        </button>
+                        <button type="button" data-city="map_city14">
+                            <span class="name">전남</span>
+                            <span class="num">20</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city15">
+                            <span class="name">경북</span>
+                            <span class="num">1,383</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city16">
+                            <span class="name">경남</span>
+                            <span class="num">132</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city17">
+                            <span class="name">제주</span>
+                            <span class="num">16</span>
+                            <span class="before">(0)</span>
+                        </button>
+                        <button type="button" data-city="map_city18">
+                            <span class="name">검역</span>
+                            <span class="num">597</span>
+                            <span class="before">(+4)</span>
+                        </button>
+    
+3. NAVER 이미지 - 코로나전국확진자비율
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAzMjFfMTM1%2FMDAxNTg0NzkxMDg4ODIx.ZKlBKBgtqTO6-l3wxSYXzgU_bCrw6a4k7fL-nxGwtwsg.YwjA5obA-3ws0sboe14wb1tOnghL81v3Pv22NL0qfKYg.PNG.30billionaire%2Fimage.png&amp;type=b400" class="_img" alt="코로나19 확진자 증가율 추이 (feat. 한국,미국,영국,독일,프랑스) | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="1280" data-height="720" style="height: 166.624px; width: 296.22px; left: 0px; top: 0px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjdfNTQg%2FMDAxNTgyNzk1NTM1NzA1.9bd7-HdKlh4NMtxYWlhOjHl8P7bUwesKlc9lUrKFZ6kg.BErl76uirnGnM29LHJKHGsuE4473YGQ86U9qAZubD9Mg.JPEG.ivymint%2F1582768068_SmartSelect_20200227_041459_Excel.jpg&amp;type=b400" class="_img" alt="[코로나19] 확진비율이 중요한 이유 - 대구신천지 확진율 83% | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="660" data-height="572" style="height: 164.41px; width: 189.704px; left: 1.42109e-14px; top: -1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjdfNTQg%2FMDAxNTgyNzk1NTM1NzA1.9bd7-HdKlh4NMtxYWlhOjHl8P7bUwesKlc9lUrKFZ6kg.BErl76uirnGnM29LHJKHGsuE4473YGQ86U9qAZubD9Mg.JPEG.ivymint%2F1582768068_SmartSelect_20200227_041459_Excel.jpg&amp;type=b400" class="_img" alt="[코로나19] 확진비율이 중요한 이유 - 대구신천지 확진율 83% | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="660" data-height="572" style="height: 164.41px; width: 189.704px; left: 1.42109e-14px; top: -1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAzMDlfMjI3%2FMDAxNTgzNzMxNTAxODky.Wfx_mVKOoOMTMe_iBKfGeckvE0fiZLDclnvc3Cu4w0cg.OJOfg5Jg1ySHvCnxK1TK3sJ2jZiZsaMMdUH0yoVr0rsg.PNG.joonggopick%2F%25C4%25DA%25B7%25CE%25B3%25AA_%25BD%25C5%25C3%25B5%25C1%25F6_%25BA%25F1%25C0%25B2.png&amp;type=b400" class="_img" alt="코로나19 확진자 신천지 비율, 대구는 어떻게? | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="925" data-height="452" style="height: 164.41px; width: 336.458px; left: 0px; top: 0px; zoom: 1; opacity: 1;">
+    
+4. NAVER 이미지 - 코로나연령별대로확진자분석
+
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAzMjNfMTcx%2FMDAxNTg0OTIyMTkyNTM0.ndohlKVm-n36B0X2NUKMFJTa1zc_EioGy-tqjXZIEnsg.l5q_2l_pHyjlubbKDPKnIdqI0LQG4qcV5qoQsS9YPdkg.JPEG.jekimpro%2F1584922192098.jpg&amp;type=b400" class="_img" alt="질본, 감염자 7755명 분석/코로나 비이러스 확진자 연령별 분포 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="860" data-height="1280" style="height: 209.531px; width: 140.779px; left: -1.42109e-14px; top: 1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F421%2F2020%2F03%2F19%2F0004531381_001_20200319110524296.jpg&amp;type=b400" class="_img" alt="70대도 '코로나19' 사망 관리 '비상'…치명률 6% 처음 넘어(상보) | 포토뉴스" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="560" data-height="470" style="height: 209.531px; width: 249.654px; left: 0px; top: 0px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5620%2F2020%2F03%2F29%2F0000009030_001_20200329165051114.jpg&amp;type=b400" class="_img" alt="﻿국내 코로나19 확진자 특징은?…확진자는 여성, 사망자는 남성이 많아 | 포토뉴스" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="477" data-height="309" style="height: 202.248px; width: 312.208px; left: -2.84217e-14px; top: 1.42109e-14px; zoom: 1; opacity: 1;">
+
+5. NAVER 이미지 - 코로나국내현황지도
+
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjZfMTg5%2FMDAxNTgyNzExOTExMTYw.6hn5UvdigTU6NjJ1TNctCKfXehC0wKuvJ_W02_GKpuog.KuNg6DaYUEsEgyWaPj00FXqyuGnGY5FYj1HZgWuWn18g.PNG.fideliti%2F%25C1%25F6%25B5%25B5.png&amp;type=b400" class="_img" alt="국내 신종코로나19 지역별 실시간 현황 지도 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="1280" data-height="819" style="height: 182.648px; width: 285.458px; left: 0px; top: 1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjZfMTg5%2FMDAxNTgyNzExOTExMTYw.6hn5UvdigTU6NjJ1TNctCKfXehC0wKuvJ_W02_GKpuog.KuNg6DaYUEsEgyWaPj00FXqyuGnGY5FYj1HZgWuWn18g.PNG.fideliti%2F%25C1%25F6%25B5%25B5.png&amp;type=b400" class="_img" alt="국내 신종코로나19 지역별 실시간 현황 지도 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="1280" data-height="819" style="height: 182.648px; width: 285.458px; left: 0px; top: 1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjJfNzMg%2FMDAxNTgyMzIxNzc1NzI1.Fo22LDZyTKa52z5UpC_wHsABe5NjjPy5Zl_yvy-hZcIg.KtD8Aq-43Iki1lNIm3UObl_x3kzlY61GhN70sk0UoZ0g.PNG.ntothev%2F20200222_064604.png&amp;type=b400" class="_img" alt="코로나 맵, 코로나 지도, 코로나 세계의 상황, 국내지역별 감염현황 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="608" data-height="719" style="height: 176.486px; width: 149.24px; left: 0px; top: -1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjJfMjgw%2FMDAxNTgyMzIzOTE0ODI4.kA1AJVCC6CtR8tGQWrHpf4QzMMe7n7N9vbXzyrsANQYg.hpGF76i0mU8PiJM9OkSYDYfbUID9NnnM9YvsIWDmaNQg.JPEG.mobitant%2FKakaoTalk_20200222_071814481.jpg&amp;type=b400" class="_img" alt="국내 코로나 현황, 확진자 정보, 확진자 경로 지도, 코로나 뉴스, 질병관리본부의 속보 등을 빠르고 쉽게 살펴볼 수 있는 앱 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="443" data-height="960" style="height: 171.186px; width: 78.9951px; left: 0px; top: 0px; zoom: 1; opacity: 1;">
+
+6. NAVER 이미지 - 시도별코로나확진자현황지도
+
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAzMTlfMTkg%2FMDAxNTg0NTgxOTI4NzY1.O1nQFbaKofYTCgssX5B_1j9ZHGfN9h6tpfvYh-DkRXEg.EJSOzeQoGVPhOH0SkVf2_JXxGO7s6-YHawXylf1sbt4g.JPEG.dodut%2FIMG_1481.jpg&amp;type=b400" class="_img" alt="전국 코로나 확진자 현황 총 8565명 시도별 추가 152명 3.19 00:00 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="900" data-height="1232" style="height: 178.538px; width: 130.425px; left: 1.42109e-14px; top: -1.42109e-14px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMThfMTg5%2FMDAxNTgyMDE2MzU0MTAy.5j7oFVAwGd_tzws5IaKp3uAPxhuolEqrfJ0U6VKkLS0g.eXhzCWgU0iwLmrmIMXWqNUHbYgM7iwDUotoWLXgIdz8g.PNG.bubuinc16%2F%25C4%25DA%25B7%25CE%25B3%25AA%25C1%25F6%25B5%25B5%25282.18%2529.png&amp;type=b400" class="_img" alt="대구 코로나 확진자 발생. 코로나19 확진자 현황 지도, 동선 정리(2월18일 오전기준) 확진자 총 31명 | 블로그" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="1280" data-height="987" style="height: 178.634px; width: 231.664px; left: 0px; top: 0px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fpost.phinf.naver.net%2FMjAyMDAzMTJfMjU1%2FMDAxNTgzOTk1NzY3Nzc2.wWmANos6p7Hl_ULxQMyr7a474n9zNegBlQM4KuN2hHsg.S9G-Ew0T7KF-Mf1kRdxZO8KgIRk4qCQLL2_XRVjeSyEg.PNG%2FIk02p9B4E61olvKnShXG72BKfvJI.jpg&amp;type=b400" class="_img" alt="코로나19 부산 확진자 현황 지도 (3.11일 발표 기준) | 포스트" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="1000" data-height="626" style="height: 174.92px; width: 279.425px; left: 0px; top: 0px; zoom: 1; opacity: 1;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5620%2F2020%2F04%2F20%2F0000009395_008_20200420113100689.jpg&amp;type=b400" class="_img" alt="국내 코로나19 주요 시도별 발생 현황은?…4월 20일 신규 확진자 13명, 총 1만 674명 | 포토뉴스" onerror="var we=$Element(this); we.addClass('bg_nimg'); we.attr('alt','이미지준비중'); we.attr('src','data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');" data-width="350" data-height="260" style="height: 178.457px; width: 240.231px; left: -1.42109e-14px; top: 1.42109e-14px; zoom: 1; opacity: 1;">
